@@ -1,0 +1,16 @@
+FeatureSelection,N_Features,Model,RMSE_mean,RMSE_std,Time_sec
+All_Features,267,SVR,0.18527,0.02191,2.8
+All_Features,267,RandomForest,0.13673,0.00794,6.0
+All_Features,267,XGBoost,0.12127,0.00984,3.4
+VarianceThreshold,191,SVR,0.1547,0.01166,0.3
+VarianceThreshold,191,RandomForest,0.13678,0.00758,3.6
+VarianceThreshold,191,XGBoost,0.12159,0.00802,1.7
+SelectKBest_f_reg,50,SVR,0.14881,0.00696,0.2
+SelectKBest_f_reg,50,RandomForest,0.14291,0.00743,1.9
+SelectKBest_f_reg,50,XGBoost,0.13745,0.00745,1.0
+RFE_RF,50,SVR,0.14215,0.01223,0.1
+RFE_RF,50,RandomForest,0.13648,0.0079,2.1
+RFE_RF,50,XGBoost,0.12373,0.00805,1.1
+SelectFromModel_RF,134,SVR,0.14681,0.01277,0.2
+SelectFromModel_RF,134,RandomForest,0.13656,0.00793,3.1
+SelectFromModel_RF,134,XGBoost,0.12168,0.00853,1.3

@@ -1,0 +1,6 @@
+FeatureSelection,RandomForest,SVR,XGBoost
+All_Features,0.13673,0.18527,0.12127
+RFE_RF,0.13648,0.14215,0.12373
+SelectFromModel_RF,0.13656,0.14681,0.12168
+SelectKBest_f_reg,0.14291,0.14881,0.13745
+VarianceThreshold,0.13678,0.1547,0.12159
